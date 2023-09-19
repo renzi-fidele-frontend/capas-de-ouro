@@ -1,0 +1,19 @@
+#ct {
+   padding-inline: var(--pad-geral);
+   padding-block: 1em;
+}
+
+#ct > img {
+   width: 120px;
+}
+
+#ct > img:hover {
+   cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+   #ct > img {
+      width: 90px;
+      margin-left: 5px;
+   }
+}

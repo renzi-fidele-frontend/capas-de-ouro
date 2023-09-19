@@ -1,0 +1,108 @@
+#ct {
+   border-top: 1px solid var(--cor-borda);
+}
+
+#cima {
+   display: flex;
+   padding-block: 1em;
+   width: 100%;
+   justify-content: space-between;
+   align-items: center;
+   padding-inline: var(--pad-geral);
+}
+
+#cima > #left > a {
+   margin-right: 1.2em;
+   font-size: 16px;
+}
+
+#cima > #left > a:hover {
+   text-decoration: underline;
+}
+
+#cima > #right > a {
+   margin-left: 1em;
+   font-size: 1.5em;
+   line-height: 1px;
+}
+
+#baixo {
+   background-color: #f2f2f2;
+   padding-inline: var(--pad-geral);
+   padding-top: 1em;
+   padding-bottom: 1.2em;
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#baixo > #left > h1 {
+   color: var(--cor-tema);
+   font-size: 1.3em;
+   font-family: "Avenir-Heavy";
+   margin-bottom: 0.2em;
+   font-weight: 500;
+}
+
+#baixo > #left > p,
+#baixo > #right > p,
+#baixo > #right > span {
+   font-size: 12px;
+   color: var(--cor-texto2);
+}
+
+#baixo > #right > p {
+   font-weight: 900;
+   line-height: 7px;
+}
+
+#baixo > #right {
+}
+
+#baixo > #right > span {
+   font-weight: 500;
+}
+
+@media screen and (max-width: 760px) {
+   #cima {
+      flex-direction: column;
+      align-items: start;
+   }
+
+   #cima > #left {
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+   }
+
+   #cima > #left > a {
+      margin-right: 0;
+      margin-bottom: 0.7em;
+      font-size: 17px;
+   }
+
+   #cima > #right > a {
+      margin-left: 0;
+      margin-right: 0.8em;
+   }
+
+   #cima > #right {
+      margin-top: 0.6em;
+   }
+
+   #baixo {
+      flex-direction: column;
+      align-items: start;
+   }
+
+   #baixo > #right > img {
+      margin-top: 1.5em;
+   }
+
+   #baixo > #left > p,
+   #baixo > #right > p,
+   #baixo > #right > span {
+      font-size: 13px;
+   }
+}

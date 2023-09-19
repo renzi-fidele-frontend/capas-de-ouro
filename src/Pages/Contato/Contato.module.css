@@ -1,0 +1,133 @@
+#ct {
+   padding-inline: 25%;
+   text-align: center;
+   padding-top: 1.5em;
+}
+
+#meio {
+   margin-bottom: 5em;
+}
+
+#meio > div > a > img {
+}
+
+#meio > div {
+   padding: 1em;
+   background-color: #f2f2f2;
+   width: fit-content;
+   margin-inline: auto;
+   margin-top: 4em;
+   margin-bottom: 1em;
+   border-radius: 24px;
+}
+
+#meio > p {
+   font-family: "Avenir-Heavy";
+   letter-spacing: -0.06em;
+}
+
+#meio > span {
+   color: var(--cor-texto2);
+}
+
+#afastar {
+   margin-inline: 1em;
+}
+
+#baixo {
+   display: grid;
+   grid-template-columns: 50% 50%;
+}
+
+#baixo > #left {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: end;
+}
+
+#baixo > #right {
+   text-align: start;
+   padding-bottom: 1em;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+#baixo > #right > p {
+   font-size: 20px;
+   margin-top: 10px;
+}
+
+#baixo > #right > h5 {
+   margin-bottom: 0.5em;
+}
+
+#demoMobile {
+   display: none;
+}
+
+@media screen and (max-width: 1603px) {
+   #ct {
+      padding-inline: 18%;
+   }
+}
+
+@media screen and (max-width: 1297px) {
+   #ct {
+      padding-inline: 10%;
+   }
+}
+
+@media screen and (max-width: 1079px) {
+   #ct {
+      padding-inline: 6%;
+   }
+}
+
+@media screen and (max-width: 919px) {
+   #baixo {
+      grid-template-columns: 40% 60%;
+   }
+}
+
+@media screen and (max-width: 843px) {
+   #baixo {
+      display: flex;
+      flex-direction: column-reverse;
+      padding-inline: 10%;
+   }
+
+   #baixo > #right > p {
+      margin-bottom: 0.8em;
+      font-size: 18px;
+   }
+
+   #baixo > #left > img {
+      margin-top: 1em;
+   }
+
+   #demoMobile {
+      display: initial;
+   }
+
+   #demo {
+      display: none;
+   }
+
+   #baixo > #right > p {
+      font-size: 16px;
+   }
+}
+
+@media screen and (max-width: 843px) {
+   #baixo {
+      padding-inline: 0;
+   }
+}
+
+@media screen and (max-width: 500px) {
+   #demoMobile {
+      width: 99%;
+   }
+}

@@ -1,0 +1,137 @@
+#ct {
+   padding-inline: var(--pad-geral2);
+   padding-block: 3em;
+}
+
+#cima {
+   text-align: center;
+   margin-bottom: 2em;
+}
+
+#cima > svg {
+   font-size: 5em;
+   margin-bottom: 13px;
+}
+
+.secao {
+   margin-top: 5em;
+}
+
+.secao > h5 {
+   border-bottom: 1px solid var(--cor-borda);
+   padding-bottom: 0.1em;
+   margin-bottom: 0.8em;
+}
+
+.secao > p {
+   font-size: 20px;
+   line-height: 1.4;
+}
+
+.secao > div {
+   background-color: #f2f2f2;
+   border-radius: 12px;
+   margin-top: 2em;
+   padding: 1.6em;
+   display: flex;
+   flex-flow: row nowrap;
+}
+
+.secao > div > #left {
+   display: flex;
+   flex-flow: column;
+   justify-content: center;
+}
+
+.secao > div > #left > img {
+   width: 250px;
+}
+
+.secao > div > #right {
+   font-size: 16px;
+   padding-left: 1em;
+}
+
+.secao > div > #right > h5 {
+   font-family: "Avenir-Heavy";
+   color: var(--cor-tema);
+   margin-bottom: 9px;
+   font-size: 19px;
+   letter-spacing: -0.06em;
+}
+
+.secao > div > #right > p {
+   line-height: 1.4;
+}
+
+.secao > div > #right > span {
+   color: var(--cor-texto2);
+}
+
+.secao > div > #right > .subtit {
+   color: var(--cor-texto2);
+}
+
+.secao > div > #right > .subtit > span {
+   font-family: "Avenir-Heavy";
+}
+
+.secTit {
+   font-size: 17px;
+   font-family: "Avenir-Heavy";
+   letter-spacing: -0.06em;
+}
+.secLink {
+   color: var(--cor-link);
+   margin-top: 5px;
+}
+.secLink:hover {
+   text-decoration: underline;
+}
+
+@media screen and (max-width: 951px) {
+   .secao > p {
+      font-size: 18px;
+   }
+}
+
+@media screen and (max-width: 697px) {
+   .secao > div {
+      flex-direction: column;
+   }
+
+   .secao > div > #right {
+      padding-left: 0;
+   }
+
+   .secao {
+      margin-top: 3em;
+   }
+
+   .secTit {
+      margin-top: 5px;
+   }
+
+   .secao > div > #left > img {
+      width: 70px;
+      margin-bottom: 5px;
+   }
+}
+
+@media screen and (max-width: 533px) {
+   #ct {
+      padding-block: 1.8em;
+   }
+
+   .secao > p {
+      font-size: 16px;
+   }
+
+   .secao > div > #right > p {
+      font-size: 15px;
+   }
+
+   .secao > div {
+      padding: 1em;
+   }
+}

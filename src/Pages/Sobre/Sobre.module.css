@@ -1,0 +1,46 @@
+.tit3 {
+   letter-spacing: -0.06em;
+   font-family: "Avenir-Heavy";
+   font-size: 44px;
+}
+
+#ct {
+   padding-inline: var(--pad-geral2);
+   padding-block: 3em;
+}
+
+#ct > img {
+   margin-top: 3em;
+   margin-bottom: 1em;
+}
+
+#ct > h5 {
+   margin-bottom: 0.8em;
+}
+
+#ct > p {
+   margin-top: 0.7em;
+   font-size: 20px;
+   line-height: 1.4;
+}
+
+@media screen and (max-width: 950px) {
+   #ct > p {
+      font-size: 18px;
+   }
+   #ct {
+      padding-block: 1em;
+   }
+}
+
+@media screen and (max-width: 950px) {
+   #ct > p {
+      font-size: 16px;
+   }
+}
+
+@media screen and (max-width: 950px) {
+   #ct > p {
+      font-size: 15px;
+   }
+}

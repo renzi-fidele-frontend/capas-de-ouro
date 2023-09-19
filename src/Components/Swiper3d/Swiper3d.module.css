@@ -1,0 +1,7 @@
+.img {
+   border-radius: 35px;
+   height: auto;
+   max-height: 600px;
+}
+
+/*breakpoints={{ 1024: { slidesPerView: 2 }, 1200: { slidesPerView: 4, spaceBetween: 25 }, 1663: { slidesPerView: 3 } }}*/

@@ -1,0 +1,227 @@
+#ct {
+   text-align: center;
+   padding-bottom: 5em;
+}
+
+#body {
+   margin-top: 3em;
+   margin-bottom: 1em;
+}
+
+.secao {
+   margin-bottom: 5em;
+   padding-inline: 31%;
+   padding-bottom: 4em;
+}
+
+.secao > .imgCont {
+   margin-top: 4em;
+}
+
+.secao > ul {
+   display: flex;
+   flex-flow: row nowrap;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 0.4em;
+}
+
+.secao > ul > img {
+   width: 30px;
+}
+
+.secao > h2 {
+   font-weight: 600;
+   font-size: 19px;
+   margin-bottom: 2em;
+}
+
+.secao > h6 {
+   margin-top: 0.1em;
+}
+
+.secao > p {
+   color: var(--cor-texto2);
+   font-size: 20px;
+   margin-top: 2em;
+   font-weight: 500;
+   line-height: 26px;
+}
+
+.secao > h4 {
+   margin-top: 5%;
+   font-family: "Avenir-medium";
+   margin-bottom: 1%;
+}
+
+#opcoes {
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: center;
+   align-items: center;
+}
+
+#opcoes > p {
+   position: relative;
+   padding: 22px;
+   border-radius: 50%;
+   border: 1px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: all 0.3s ease-out;
+}
+
+#opcoes > p:hover {
+   cursor: pointer;
+}
+
+#opcoes > p > span {
+   position: absolute;
+   padding: 19px;
+   border-radius: 50%;
+}
+
+.cimaBtn {
+}
+
+#imgsCont {
+   margin-top: 3em;
+}
+
+#imgsCont {
+   transition: all 1s ease-out;
+}
+
+#produto1 {
+   position: relative;
+}
+
+#produto1 > span {
+   background-color: black;
+}
+
+.btnAtivo {
+   background-color: var(--cor-tema);
+   border: 1px solid var(--cor-tema) !important;
+}
+
+.btnAtivo::after {
+   opacity: 1 !important;
+   scale: 1 !important;
+}
+
+#produto1::after {
+   position: absolute;
+   content: "Acetato Preto";
+   transition: all 0.2s ease-in-out;
+   bottom: -30px;
+   width: max-content;
+   opacity: 0;
+   scale: 0;
+}
+
+#produto2::after {
+   position: absolute;
+   content: "Acetato Importado Italiano";
+   bottom: -30px;
+   width: max-content;
+   opacity: 0;
+   scale: 0;
+   transition: all 0.2s ease-in-out;
+}
+
+#produto2 > span {
+   background-color: rgb(65, 65, 65);
+}
+
+#oferta {
+   margin-top: 4em;
+}
+
+.tit2 {
+   font-family: "Avenir-Heavy";
+   font-size: 32px;
+   letter-spacing: -0.06em;
+   font-weight: normal;
+}
+
+.subtit2 {
+   font-size: 20px;
+   margin-top: 3px;
+   margin-bottom: 2em;
+}
+
+#oferta > a {
+}
+
+@media screen and (max-width: 1500px) {
+   .secao {
+      padding-inline: 25%;
+   }
+}
+
+@media screen and (max-width: 1131px) {
+   .secao {
+      padding-inline: 18%;
+   }
+   .secao > p {
+      font-size: 18px;
+   }
+
+   .tit2 {
+      font-size: 29px;
+   }
+}
+
+@media screen and (max-width: 725px) {
+   .secao {
+      padding-inline: 13%;
+      text-align: left;
+   }
+
+   .tit2 {
+      font-size: 25px;
+   }
+}
+
+@media screen and (max-width: 600px) {
+   #ftNova {
+      margin-right: -3%;
+   }
+}
+
+@media screen and (max-width: 525px) {
+   .secao {
+      padding-inline: 3%;
+      margin-bottom: 3em;
+   }
+
+   .secao > h4 {
+      text-align: center;
+   }
+
+   .secao > p {
+      margin-top: 1em;
+      font-size: 18px;
+   }
+
+   .secao > ul {
+      justify-content: left;
+   }
+
+   .secao > h2 {
+      margin-bottom: 1em;
+      font-size: 18px;
+   }
+
+   .tit2 {
+      font-size: 22px;
+   }
+}
+
+@media screen and (max-width: 350px) {
+   .tit2 {
+      font-size: 20px;
+   }
+}

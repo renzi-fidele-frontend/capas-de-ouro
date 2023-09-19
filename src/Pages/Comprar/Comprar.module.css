@@ -1,0 +1,267 @@
+#ct {
+   padding-inline: var(--pad-geral);
+   padding-block: 3.5em;
+}
+
+#cima {
+   display: grid;
+   grid-template-columns: 50% 50%;
+   padding-inline: 1em;
+}
+
+#cima > #left {
+   text-align: center;
+}
+
+#cima > #right {
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   justify-content: center;
+   padding-left: 8%;
+}
+
+#cima > #right > h3 {
+   border-bottom: 1px solid var(--cor-borda);
+   padding-bottom: 0.3em;
+   width: 100%;
+}
+
+#cima > #right > h5 {
+   font-family: "Avenir-heavy";
+   margin-top: 1em;
+   font-size: 20px;
+   letter-spacing: -0.3px;
+}
+
+#cima > #right > h5 > span {
+   font-family: "Avenir-book";
+   font-size: 16px;
+   color: var(--cor-texto2);
+}
+
+#cima > #right > p {
+   color: var(--cor-texto2);
+   margin-top: 0.3em;
+   margin-bottom: 0.4em;
+}
+
+#cima > #right > ul {
+   margin-top: 0.3em;
+   color: var(--cor-texto2);
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+}
+
+#cima > #right > ul > p {
+   display: flex;
+   align-items: center;
+}
+
+#cima > #right > ul > p > svg {
+   margin-right: 5px;
+}
+
+.opcoes > P::after {
+   display: none;
+   color: var(--cor-texto2);
+}
+
+#verde {
+   color: #00a000 !important;
+   display: flex;
+   white-space: nowrap;
+   flex-flow: row nowrap;
+   align-items: center;
+}
+#verde > svg {
+   margin-right: 5px;
+}
+
+.buyBtn {
+   margin-top: 1em;
+}
+
+#baixo {
+   margin-top: 4em;
+   padding-inline: 17%;
+   display: grid;
+   text-align: center;
+   grid-template-columns: auto auto auto;
+}
+
+#baixo > div {
+   display: flex;
+   flex-flow: row nowrap;
+   align-items: center;
+   text-align: left;
+}
+
+#baixo > div > div {
+   padding-left: 1em;
+   white-space: nowrap;
+}
+
+#baixo > div > svg {
+   font-size: 2em;
+}
+
+#baixo > div > div > p {
+   font-family: "Avenir-Heavy";
+   letter-spacing: -0.06em;
+}
+
+#baixo > div > div > span {
+   margin-top: 1px;
+   color: var(--cor-texto2);
+}
+
+#baixo > div > div > a {
+   color: var(--cor-link);
+   white-space: nowrap;
+}
+
+#baixo > div > div > a:hover {
+   text-decoration: underline;
+}
+
+#last {
+   margin-top: 7em;
+}
+
+#antes {
+   color: red !important;
+   text-decoration: line-through;
+   line-height: 5px;
+   font-family: "Avenir-Heavy" !important;
+   font-size: 17px !important;
+   margin-right: 7px;
+}
+
+@media screen and (max-width: 1277px) {
+   #last {
+      margin-top: 4em;
+   }
+}
+
+@media screen and (max-width: 1187px) {
+   #baixo {
+      padding-inline: 11%;
+   }
+}
+
+@media screen and (max-width: 1167px) {
+   #ct {
+      padding-block: 2em;
+   }
+
+   .buyBtn {
+      align-self: center;
+   }
+
+   #cima {
+      display: flex;
+      gap: 2em;
+      flex-direction: column;
+      padding-inline: 0;
+   }
+
+   #cima > #right {
+      padding-left: initial;
+      padding-inline: 5%;
+   }
+}
+
+@media screen and (max-width: 973px) {
+   #baixo {
+      padding-inline: 5%;
+   }
+}
+
+@media screen and (max-width: 857px) {
+   #cima > #left > img {
+      height: auto;
+      width: 80%;
+   }
+
+   #cima > #right > h3 {
+      font-size: 30px;
+   }
+
+   #baixo > div > div > p,
+   #baixo > div > div > span {
+      font-size: 15px;
+   }
+}
+
+@media screen and (max-width: 721px) {
+   #baixo {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+      padding-inline: 0;
+   }
+}
+
+@media screen and (max-width: 619px) {
+   .buyBtn {
+      width: 100%;
+      text-align: center;
+   }
+
+   #cima > #right {
+      padding-left: initial;
+      padding-inline: 0%;
+   }
+
+   #ct {
+      padding-block: 1em;
+   }
+   #cima > #right > h3 {
+      font-size: 25px;
+   }
+
+   #cima > #left > img {
+      height: auto;
+      width: 90%;
+   }
+
+   #cima > #right > h5 {
+      font-size: 18px;
+   }
+
+   #cima > #right > h5 > span {
+      text-align: left;
+   }
+
+   #last {
+      margin-top: 3em;
+   }
+
+   #baixo {
+      margin-top: 1.5em;
+   }
+}
+
+@media screen and (max-width: 547px) {
+   #cima {
+      gap: 0.5em;
+   }
+}
+
+@media screen and (max-width: 477px) {
+   #empurar {
+      display: block;
+   }
+
+   #cima {
+      gap: 0;
+   }
+}
+
+@media screen and (max-width: 390px) {
+   #cima > #right > h3 {
+      font-size: 22px;
+   }
+}

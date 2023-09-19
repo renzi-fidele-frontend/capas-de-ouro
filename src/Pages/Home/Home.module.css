@@ -1,0 +1,260 @@
+#ct {
+}
+
+/*--------------------Secao do Hero----------------*/
+#hero {
+   display: grid;
+   grid-template-columns: 50% 50%;
+   padding-inline: 27%;
+   background-image: linear-gradient(#fff, #efefef);
+}
+
+#hero > #left {
+   display: flex;
+   flex-flow: column;
+   justify-content: center;
+   align-items: left;
+}
+
+#hero > #right {
+   display: flex;
+   justify-content: center;
+   align-items: end;
+}
+
+#hero > #left > h2 {
+   font-weight: normal;
+   font-family: "Avenir-Heavy";
+   font-size: 35px;
+   letter-spacing: -0.06em;
+}
+
+#hero > #left > p {
+   margin-top: 1em;
+   font-size: 20px;
+   color: var(--cor-texto2);
+}
+
+/*--------------------Secao do Body----------------*/
+#body {
+   text-align: center;
+   padding-top: 3em;
+   display: flex;
+   flex-flow: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.titulo2 {
+   font-family: "Avenir-heavy";
+   color: #ff66c8;
+   font-size: 1.8em;
+   font-weight: 500;
+}
+
+#body > p {
+   color: var(--cor-texto2);
+   margin-bottom: 4em;
+}
+
+.tit {
+   font-family: "Avenir-heavy";
+   font-size: 44px;
+   font-weight: normal;
+   letter-spacing: -0.06em;
+}
+
+.subtit2 {
+   color: var(--cor-texto2);
+   text-transform: uppercase;
+   font-size: 13px;
+}
+
+.subtit {
+   font-size: 32px;
+   font-weight: normal;
+}
+
+#body > div {
+   margin-top: 3em;
+   margin-bottom: 6em;
+}
+
+#saibaBtn,
+#buyBtn {
+   border-radius: 20px;
+   border: 1px solid black;
+   transition: all 100ms ease-in-out;
+   background-image: none;
+   padding: 11px 3.5em;
+   letter-spacing: -0.1px;
+   font-weight: 500;
+   font-family: "Avenir-medium";
+   font-size: 16px;
+}
+
+#saibaBtn {
+   margin-right: 0.9em;
+   background-color: #fff;
+}
+
+#buyBtn {
+   background-color: black;
+   color: white;
+}
+
+#body > img {
+   margin-bottom: 3em;
+}
+
+@media screen and (max-width: 1631px) {
+   #hero {
+      padding-inline: 24%;
+   }
+}
+
+@media screen and (max-width: 1475px) {
+   #hero {
+      padding-inline: 20%;
+   }
+}
+
+@media screen and (max-width: 1325px) {
+   #hero > #right > img {
+      width: 78%;
+   }
+}
+
+@media screen and (max-width: 1127px) {
+   #hero > #left > h2 {
+      font-size: 32px;
+      line-height: 1.2;
+   }
+}
+
+@media screen and (max-width: 955px) {
+   #hero > #left > h2 {
+      font-size: 24px;
+   }
+   #hero > #right > img {
+      width: 78%;
+   }
+   .tit {
+      font-size: 32px;
+   }
+
+   .subtit {
+      font-size: 24px;
+   }
+
+   #body > img {
+      width: 500px;
+   }
+}
+
+@media screen and (max-width: 739px) {
+   #hero {
+      padding-right: 10%;
+   }
+
+   #hero > #right > img {
+      width: 88%;
+   }
+
+   #body > img {
+      width: 430px;
+   }
+
+   #body > div {
+      margin-top: 2em;
+      margin-bottom: 3em;
+   }
+}
+
+@media screen and (max-width: 635px) {
+   #hero {
+      padding-inline: 10%;
+   }
+}
+
+@media screen and (max-width: 543px) {
+   #hero {
+      padding-right: 5%;
+   }
+
+   #body {
+      padding-inline: 2%;
+   }
+
+   .tit {
+      font-size: 27px;
+   }
+
+   .subtit {
+      font-size: 21px;
+      margin-top: 3px;
+   }
+
+   .titulo2 {
+      font-size: 1.5em;
+   }
+
+   #body > p {
+      margin-bottom: 2em;
+   }
+
+   #saibaBtn {
+      margin-top: 9px;
+      margin-right: 0;
+   }
+
+   #body > div {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      width: 100%;
+   }
+}
+
+@media screen and (max-width: 443px) {
+   #hero > #right > img {
+      width: 95%;
+   }
+
+   #hero {
+      padding-right: 3%;
+   }
+
+   .tit {
+      font-size: 25px;
+   }
+
+   .subtit {
+      font-size: 18px;
+   }
+
+   #body > img {
+      width: 95%;
+   }
+}
+
+@media screen and (max-width: 395px) {
+   #hero > #right > img {
+   }
+
+   #hero > #left > h2 {
+      font-size: 21px;
+   }
+
+   .titulo2 {
+      font-size: 1.3em;
+   }
+
+   .tit {
+      font-size: 22px;
+   }
+
+   .subtit {
+      font-size: 17px;
+   }
+}

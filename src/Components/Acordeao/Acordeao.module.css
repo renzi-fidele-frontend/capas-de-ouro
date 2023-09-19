@@ -1,0 +1,88 @@
+summary {
+   list-style-type: "";
+}
+
+details[open] summary ~ * {
+   animation: sweep 0.5s ease-in-out;
+}
+
+@keyframes sweep {
+   0% {
+      opacity: 0;
+      transform: translateX(-10px);
+   }
+   100% {
+      opacity: 1;
+      transform: translateX(0px);
+   }
+}
+
+summary:hover {
+   cursor: pointer;
+}
+
+#sum {
+   display: flex;
+   flex-flow: row nowrap;
+   border-top: 1px solid var(--cor-borda);
+   padding-block: 18px;
+   align-items: center;
+}
+
+#sum > svg {
+   margin-right: 1em;
+   font-size: 35px;
+   color: var(--cor-texto2);
+}
+
+#faq {
+}
+
+#faq > details {
+   margin-inline: 20%;
+   margin-top: 1.4em;
+   padding: 1.5em;
+   border-radius: 12px;
+   background-color: #f2f2f2;
+}
+
+#faq > details > summary {
+   font-family: "Avenir-heavy";
+   font-size: 16px;
+   letter-spacing: -0.06em;
+   color: rgba(0, 0, 0, 0.87);
+   text-align: left;
+}
+
+#faq > details p {
+   margin-top: 1.1em;
+   font-size: 16px;
+}
+
+#faqDentro {
+   margin-bottom: 2em;
+}
+
+#primeiro {
+   margin-top: 3em !important;
+}
+
+#ultimo {
+   margin-bottom: 3em;
+}
+
+@media screen and (max-width: 800px) {
+   #faq > details {
+      margin-inline: 6%;
+   }
+}
+
+@media screen and (max-width: 533px) {
+   #sum > svg {
+      margin-right: 0.5em;
+   }
+
+   #primeiro {
+      margin-top: 1em !important;
+   }
+}
