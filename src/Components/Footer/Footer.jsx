@@ -28,14 +28,14 @@ const Footer = () => {
          </div>
          <div id={styles.baixo}>
             <div id={styles.left}>
-               <h1>Beleza</h1>
-               <p>Copyright © 2023 Beleza Ltda.</p>
+               <h1>Cardoso Capas Deluxe</h1>
+               <p>Copyright © 2023 Cardoso Capas Deluxe Ltda.</p>
                <p>Rua Costa Barros, 2100 - Centro Comercial - São Paulo</p>
             </div>
             <div id={styles.right}>
                <img src={imgPagar} alt="pagamento seguro" />
                <p>Precisa de ajuda?</p>
-               <span>suporte@belezanosolhos.com</span>
+               <span>suporte@cardosocapasdeluxe.com</span>
             </div>
          </div>
       </footer>
