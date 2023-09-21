@@ -27,7 +27,7 @@ const Home = () => {
          {/*Secao do Body */}
          <div id={styles.body}>
             <h3 className={styles.titulo2}>Cardoso Capas Deluxe</h3>
-            <p className={styles.subtit2}>Todos Iphones</p>
+            <p className={styles.subtit2}>Para todos Iphones</p>
             <h5 className={styles.tit}>A verdadeira capa de ouro para seu Iphone.</h5>
             <span className={styles.subtit}>E muito melhor do que qualquer outra da internet.</span>
             <div>
