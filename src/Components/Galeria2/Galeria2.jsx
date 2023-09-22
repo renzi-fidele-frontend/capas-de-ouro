@@ -2,10 +2,10 @@ import React, { useRef, useState } from "react";
 import styles from "./Galeria2.module.css";
 
 // Imagens
-import prd1 from "../../assets/depoimentos/dp-2.jpg";
-import prd2 from "../../assets/depoimentos/dp-2.jpg";
-import prd3 from "../../assets/depoimentos/dp-2.jpg";
-import prd5 from "../../assets/depoimentos/dp-2.jpg";
+import prd1 from "../../assets/produtos/p3.jpg";
+import prd2 from "../../assets/produtos/p2.jpg";
+import prd3 from "../../assets/produtos/p1.jpg";
+import prd5 from "../../assets/produtos/p4.jpg";
 
 const Galeria2 = () => {
    const [img, setImg] = useState(prd1);

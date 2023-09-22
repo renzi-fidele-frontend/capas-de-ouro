@@ -43,6 +43,7 @@
    font-family: "Avenir-Heavy";
    margin-bottom: 0.2em;
    font-weight: 500;
+   text-shadow: 0px 0px 1px rgb(56, 56, 56);
 }
 
 #baixo > #left > p,

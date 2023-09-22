@@ -12,7 +12,7 @@ import Galeria2 from "../../Components/Galeria2/Galeria2";
 
 const Comprar = () => {
    const [imgAmostrar, setImgAmostrar] = useState(1);
-   const [cor, setCor] = useState("Preto Brilhante");
+   const [cor, setCor] = useState("Ouro Brilhante");
 
    // Refs
    const btn1 = useRef();
@@ -22,8 +22,8 @@ const Comprar = () => {
       <div id={styles.ct}>
          <div id={styles.cima}>
             <div id={styles.left}>
-               <h3 className={estiloHome.titulo2}>Beleza</h3>
-               <p className={estiloHome.subtit2}>All Black</p>
+               <h3 className={estiloHome.titulo2}>Cardoso Capas Deluxe</h3>
+               <p className={estiloHome.subtit2}>Para todos Iphones</p>
                <Galeria2 />
             </div>
             <div id={styles.right}>

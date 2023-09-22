@@ -113,7 +113,7 @@
 
 #produto1::after {
    position: absolute;
-   content: "Acetato Preto";
+   content: "Ouro brilhante";
    transition: all 0.2s ease-in-out;
    bottom: -30px;
    width: max-content;
