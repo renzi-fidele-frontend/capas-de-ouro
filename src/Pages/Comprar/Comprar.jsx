@@ -12,7 +12,7 @@ import Galeria2 from "../../Components/Galeria2/Galeria2";
 
 const Comprar = () => {
    const [imgAmostrar, setImgAmostrar] = useState(1);
-   const [cor, setCor] = useState("Ouro Brilhante");
+   const [cor, setCor] = useState("Dourado Brilhante");
 
    // Refs
    const btn1 = useRef();
@@ -27,7 +27,7 @@ const Comprar = () => {
                <Galeria2 />
             </div>
             <div id={styles.right}>
-               <h3 className={estiloBeleza.tit2}>Poucas unidades em estoque</h3>
+               <h3 className={estiloBeleza.tit2}>Promoção disponível até 30/10</h3>
                <h5>Cor</h5>
                <p>- {cor}</p>
                {/*Opções */}
@@ -38,7 +38,7 @@ const Comprar = () => {
                      className={estiloBeleza.btnAtivo}
                      onClick={() => {
                         setImgAmostrar(1);
-                        setCor("Preto Brilhante");
+                        setCor("Dourado Brilhante");
                         btn1.current.classList.add(estiloBeleza.btnAtivo);
                         btn2.current.classList.remove(estiloBeleza.btnAtivo);
                      }}
@@ -47,35 +47,35 @@ const Comprar = () => {
                   </p>
                </div>
 
-               <h5>Acompanha Case</h5>
-               <p>- Branco nuvem</p>
+               <h5>Frete grátis</h5>
+               <p>- A partir de 2 compras</p>
                <h5>Garantia de 2 anos</h5>
                <p>- Seguro autorizado</p>
-               <h5>Medidas:</h5>
+               <h5>Especificações:</h5>
                <ul>
                   <p>
                      <FiCheckCircle />
-                     <span>Formato: Quadrado</span>
+                     <span>Antipoeira</span>
                   </p>
                   <p>
                      <FiCheckCircle />
-                     <span>Largura da lente: 5 cm</span>
+                     <span>À prova de choque</span>
                   </p>
                   <p>
                      <FiCheckCircle />
-                     <span>Altura da lente: 3,5 cm</span>
+                     <span>Design Simples</span>
                   </p>
                   <p>
                      <FiCheckCircle />
-                     <span>Ponte: 1,5 cm</span>
+                     <span>Durável</span>
                   </p>
                   <p>
                      <FiCheckCircle />
-                     <span>Comprimento Haste: 14,5 cm</span>
+                     <span>Encaixe Perfeito</span>
                   </p>
                   <p>
                      <FiCheckCircle />
-                     <span>Largura Total: 15 cm</span>
+                     <span>Proteção contra arranhões e danos.</span>
                   </p>
                </ul>
                <h5 style={{ color: "#00a000", whiteSpace: "nowrap" }}>
