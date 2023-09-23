@@ -7,7 +7,6 @@ import Swiper3d from "../../Components/Swiper3d/Swiper3d";
 import Galeria2 from "../../Components/Galeria2/Galeria2";
 
 // Imagens
-import prd1 from "../../assets/produtos/p3.jpg";
 import prd2 from "../../assets/produtos/p2.jpg";
 import prd3 from "../../assets/produtos/p1.jpg";
 import prd5 from "../../assets/produtos/p4.jpg";

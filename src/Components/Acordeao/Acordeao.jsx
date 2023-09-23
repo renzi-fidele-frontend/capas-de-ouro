@@ -10,24 +10,18 @@ import { VscFeedback } from "react-icons/vsc";
 import { ImFilePicture } from "react-icons/im";
 
 // Imagens do slider
-import i1 from "../../assets/depoimentos/dp-2.jpg";
-import i2 from "../../assets/depoimentos/dp-2.jpg";
-import i3 from "../../assets/depoimentos/dp-2.jpg";
-import i4 from "../../assets/depoimentos/dp-2.jpg";
-import i5 from "../../assets/depoimentos/dp-2.jpg";
-import i6 from "../../assets/depoimentos/dp-2.jpg";
-import i7 from "../../assets/depoimentos/dp-2.jpg";
-import i8 from "../../assets/depoimentos/dp-2.jpg";
-import i9 from "../../assets/depoimentos/dp-2.jpg";
-import i10 from "../../assets/depoimentos/dp-2.jpg";
-import i11 from "../../assets/depoimentos/dp-2.jpg";
-import i12 from "../../assets/depoimentos/dp-2.jpg";
-import i13 from "../../assets/depoimentos/dp-2.jpg";
-import i14 from "../../assets/depoimentos/dp-2.jpg";
-import i15 from "../../assets/depoimentos/dp-2.jpg";
-import i16 from "../../assets/depoimentos/dp-2.jpg";
+import i1 from "../../assets/quem_comprou/1.jpg";
+import i2 from "../../assets/quem_comprou/2.jpg";
+import i3 from "../../assets/quem_comprou/3.jpg";
+import i4 from "../../assets/quem_comprou/4.jpg";
+import i5 from "../../assets/quem_comprou/5.jpg";
+import i6 from "../../assets/quem_comprou/6.jpg";
+import i7 from "../../assets/quem_comprou/7.jpg";
+import i8 from "../../assets/quem_comprou/8.jpg";
+import i9 from "../../assets/quem_comprou/9.jpg";
+import i10 from "../../assets/quem_comprou/10.jpg";
 
-const imagens = [i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13, i14, i15, i16];
+const imagens = [i1, i2, i3, i4, i5, i6, i7, i8, i9, i10];
 
 const Acordeao = () => {
    return (

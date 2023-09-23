@@ -58,7 +58,8 @@
    line-height: 7px;
 }
 
-#baixo > #right {
+#baixo > #right > img {
+   margin-bottom: .5em;
 }
 
 #baixo > #right > span {
