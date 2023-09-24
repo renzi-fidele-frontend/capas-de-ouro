@@ -33,7 +33,7 @@ const Acordeao = () => {
             </summary>
             <Swiper3d nrFotos={3} />
          </details>
-         <details>
+         <details open={true}>
             <summary id={styles.sum}>
                <ImFilePicture />
                <span className={estiloBeleza.tit2}>Recebido dos clientes</span>
@@ -57,17 +57,17 @@ const Acordeao = () => {
 
             <details>
                <summary>Possui frete grátis?</summary>
-               <p>Sim, a partir de 2 óculos ganhe frete grátis.</p>
+               <p>Sim, a partir de 2 capas ganhe frete grátis.</p>
             </details>
 
             <details>
-               <summary>Qual o tipo de rosto ideal?</summary>
-               <p>A medida é padrão e combina com todos os tipos de rostos.</p>
+               <summary>Qual o tipo de Iphone ideal?</summary>
+               <p>Adequado para todos os tipos de Iphone.</p>
             </details>
 
             <details>
-               <summary>O Beleza All Black é Unissex?</summary>
-               <p>Sim, Beleza All Black foi feito para homens e mulheres.</p>
+               <summary>A Capa Cardoso Deluxe é original?</summary>
+               <p>Sim, A Capa Cardoso Deluxe foi com o material da melhor qualidade</p>
             </details>
 
             <details>
@@ -76,8 +76,8 @@ const Acordeao = () => {
             </details>
 
             <details id={styles.ultimo}>
-               <summary>Possui proteção?</summary>
-               <p>Sim, possui a mais alta proteção UV400 existente em óculos solares.</p>
+               <summary>A capa é resistente?</summary>
+               <p>Sim, possui a mais alta proteção UV400 existente em capas de qualidade para proteger do sol, quedas e arranhões.</p>
             </details>
          </details>
       </div>

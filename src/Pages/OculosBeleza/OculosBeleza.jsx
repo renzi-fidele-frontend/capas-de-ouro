@@ -11,6 +11,7 @@ import prd2 from "../../assets/produtos/p2.jpg";
 import prd3 from "../../assets/produtos/p1.jpg";
 import prd5 from "../../assets/produtos/p4.jpg";
 import star from "../../assets/star.svg";
+import deps from "../../assets/deps.jpg"
 
 const OculosBeleza = () => {
    const loc = useLocation();
@@ -131,7 +132,7 @@ const OculosBeleza = () => {
                   excelentes de clientes de todo o país recomendando a Capa Cardoso Deluxe.
                </p>
             </div>
-            <img src={""} alt="amostras de quem comprou" />
+            <img src={deps} alt="amostras de quem comprou" />
             <Swiper3d />
          </div>
          <h3 className={estiloHome.titulo2}>Cardoso Capas Deluxe</h3>
