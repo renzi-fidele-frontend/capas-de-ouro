@@ -20,6 +20,7 @@ import i7 from "../../assets/quem_comprou/7.jpg";
 import i8 from "../../assets/quem_comprou/8.jpg";
 import i9 from "../../assets/quem_comprou/9.jpg";
 import i10 from "../../assets/quem_comprou/10.jpg";
+import TestimonialSwiper from "../TestimonialSwiper/TestimonialSwiper";
 
 const imagens = [i1, i2, i3, i4, i5, i6, i7, i8, i9, i10];
 
@@ -31,7 +32,7 @@ const Acordeao = () => {
                <VscFeedback />
                <span className={estiloBeleza.tit2}>Avaliações dos clientes</span>{" "}
             </summary>
-            <Swiper3d nrFotos={3} />
+            <TestimonialSwiper />
          </details>
          <details open={true}>
             <summary id={styles.sum}>

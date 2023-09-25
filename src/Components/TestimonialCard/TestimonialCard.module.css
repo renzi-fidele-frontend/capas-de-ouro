@@ -1,0 +1,41 @@
+#ct {
+   padding: 2em;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border: 1px solid black;
+  border-radius: 20px;
+  background-color: #f6f7e6;
+background-size: 10px 10px;
+background-image: repeating-linear-gradient(45deg, #fbd401 0, #fbd401 1px, #f6f7e6 0, #f6f7e6 50%);
+}
+
+.icon {
+   font-size: 50px;
+   align-self: flex-end;
+   margin-right: 5%;
+   margin-bottom: 20px;
+}
+
+.right > h5 {
+   font-family: "Avenir-heavy";
+   font-size: 20px;
+}
+
+.cliente {
+   display: flex;
+   margin-top: 20px;
+   flex-flow: row nowrap;
+}
+
+.cliente > .left > img {
+   border-radius: 50%;
+   width: 90px;
+}
+
+.cliente > .right {
+   padding-left: 1em;
+   display: inherit;
+   flex-direction: column;
+   justify-content: center;
+}

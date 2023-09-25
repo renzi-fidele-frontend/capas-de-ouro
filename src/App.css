@@ -57,6 +57,18 @@ img {
    opacity: 1;
 }
 
+/* Testimonial slide*/
+.testimonialSlide {
+   opacity: 1;
+   box-shadow: 0 15px 50px rbga(0,0,0,0.2);
+   filter: blur(4px);
+}
+
+.swiper-slide-active {
+   filter: blur(0px);
+
+}
+
 @media screen and (max-width: 1159px) {
    .mySwiper .swiper-slide {
       height: 140px;

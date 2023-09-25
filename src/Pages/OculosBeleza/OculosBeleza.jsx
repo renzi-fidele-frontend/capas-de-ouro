@@ -11,7 +11,8 @@ import prd2 from "../../assets/produtos/p2.jpg";
 import prd3 from "../../assets/produtos/p1.jpg";
 import prd5 from "../../assets/produtos/p4.jpg";
 import star from "../../assets/star.svg";
-import deps from "../../assets/deps.jpg"
+import deps from "../../assets/deps.jpg";
+import TestimonialSwiper from "../../Components/TestimonialSwiper/TestimonialSwiper";
 
 const OculosBeleza = () => {
    const loc = useLocation();
@@ -80,8 +81,8 @@ const OculosBeleza = () => {
                <h5 className={estiloHome.tit}>Um design versátil.</h5>
                <h6 className={estiloHome.subtit}>Que nunca sai de moda.</h6>
                <p>
-                  A Capa Cardoso Deluxe é muito versátil e combina com todo tipo de Iphone. Um companheiro que vai estar com você em
-                  todos os momentos especiais da sua vida.
+                  A Capa Cardoso Deluxe é muito versátil e combina com todo tipo de Iphone. Um companheiro que vai estar com você em todos os
+                  momentos especiais da sua vida.
                </p>
                <div className={styles.imgCont}>
                   <img src={prd5} alt="" />
@@ -107,8 +108,8 @@ const OculosBeleza = () => {
                <h6 className={estiloHome.subtit}>Feito com o melhor acabamento.</h6>
                <p>
                   A Capa Cardoso Deluxe é uma peça de excelência artesanal com um acabamento muito superior ao de qualquer outra capa da
-                  internet. Sua produção é feita na Itália pelos mestres artesãos, os melhores do mundo, por isso seu material é
-                  resistente à quedas e riscos.
+                  internet. Sua produção é feita na Itália pelos mestres artesãos, os melhores do mundo, por isso seu material é resistente à
+                  quedas e riscos.
                </p>
                <div id={styles.ftNova} className={styles.imgCont}>
                   <img src={prd2} alt="" />
@@ -133,7 +134,9 @@ const OculosBeleza = () => {
                </p>
             </div>
             <img src={deps} alt="amostras de quem comprou" />
-            <Swiper3d />
+            <div id={styles.deps}>
+               <TestimonialSwiper slides={4} />
+            </div>
          </div>
          <h3 className={estiloHome.titulo2}>Cardoso Capas Deluxe</h3>
          <p className={estiloHome.subtit2}>Para todos Iphones</p>
