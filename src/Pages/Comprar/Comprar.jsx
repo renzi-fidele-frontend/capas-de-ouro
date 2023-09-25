@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import styles from "./Comprar.module.css";
 import estiloBeleza from "../OculosBeleza/OculosBeleza.module.css";
 import estiloHome from "../Home/Home.module.css";
-import { BsBoxSeam, BsInfoCircle, BsChat } from "react-icons/bs";
+import { BsBoxSeam, BsInfoCircle, BsChat, BsWhatsapp } from "react-icons/bs";
 import { PiSealCheckLight } from "react-icons/pi";
 import { FiCheckCircle } from "react-icons/fi";
 
@@ -81,13 +81,19 @@ const Comprar = () => {
                <h5 style={{ color: "#00a000", whiteSpace: "nowrap" }}>
                   <span id={styles.antes}>De R$ 129,99</span> Por R$ 49,99 <span id={styles.empurar}> em até 2x sem juros</span>
                </h5>
+
                <p id={styles.verde}>
                   <BsInfoCircle />
                   <span>Envio imediato para todo Brasil</span>
                </p>
-               <a id={estiloHome.buyBtn} className={styles.buyBtn} href="https://seguro.belezanosolhos.com.br/r/QK0BGZ7IO2">
-                  Compre agora
-               </a>
+               <div id={styles.botoes} style={{ marginTop: "1em" }}>
+                  <a id={estiloHome.buyBtn} className={styles.buyBtn} href="https://seguro.belezanosolhos.com.br/r/QK0BGZ7IO2">
+                     Compre agora
+                  </a>
+                  <a id={estiloHome.buyBtn} className={styles.zapBtn} href="#">
+                     <BsWhatsapp/> Compre via Zap
+                  </a>
+               </div>
             </div>
          </div>
 

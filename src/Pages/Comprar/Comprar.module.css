@@ -79,8 +79,23 @@
    margin-right: 5px;
 }
 
+#botoes {
+   display: flex;
+   flex-flow: row nowrap;
+   width: 100%;
+}
+
 .buyBtn {
-   margin-top: 1em;
+   text-align: center;
+   white-space: nowrap;
+   margin-right: 1em;
+}
+
+.zapBtn {
+   background-color: #00a000 !important;
+   border: none !important;
+   text-align: center;
+   white-space: nowrap;
 }
 
 #baixo {
@@ -247,6 +262,15 @@
 @media screen and (max-width: 547px) {
    #cima {
       gap: 0.5em;
+   }
+
+   #botoes {
+      flex-flow: column;
+   }
+
+   .buyBtn {
+      margin-right: 0;
+      margin-bottom: .5em;
    }
 }
 
