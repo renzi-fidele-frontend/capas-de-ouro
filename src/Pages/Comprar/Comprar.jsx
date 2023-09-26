@@ -108,7 +108,7 @@ const Comprar = () => {
             <div>
                <PiSealCheckLight />
                <div>
-                  <p>Garantia de 2 anos</p>
+                  <p>Garantia de 6 meses</p>
                   <span>Ative quando precisar</span>
                </div>
             </div>
