@@ -116,7 +116,7 @@ const Comprar = () => {
                <BsChat />
                <div>
                   <p>Suporte online</p>
-                  <Link to={"/contato"}>Fale com a Beleza</Link>
+                  <Link to={"/contato"}>Fale com a Capas Deluxe</Link>
                </div>
             </div>
          </div>

@@ -98,7 +98,7 @@ const TestimonialSwiper = ({ slides = 3 }) => {
             autoplay={{ pauseOnMouseEnter: false, disableOnInteraction: false, delay: 6000 }}
             modules={[Autoplay, EffectCoverflow]}
             className="testimonial_ct"
-            breakpoints={{ 250: { slidesPerView: 1 }, 600: { slidesPerView: 2 }, 900: { slidesPerView: 2 }, 1500: { slidesPerView: slides } }}
+            breakpoints={{ 250: { slidesPerView: 1 }, 600: { slidesPerView: 2 }, 900: { slidesPerView: 2 }, 1400: { slidesPerView: slides } }}
          >
             {data.map((v, key) => {
                return (
