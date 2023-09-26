@@ -3,8 +3,8 @@ import styles from "./Home.module.css";
 import { Link } from "react-router-dom";
 
 // imagens
-import img1 from "../../assets/1.jpg"
-import lady from "../../assets/lady.png"
+import img1 from "../../assets/1.jpg";
+import lady from "../../assets/lady.png";
 
 const Home = () => {
    return (
@@ -31,14 +31,14 @@ const Home = () => {
             <h5 className={styles.tit}>A verdadeira capa de ouro para seu Iphone.</h5>
             <span className={styles.subtit}>E muito melhor do que qualquer outra da internet.</span>
             <div>
-               <Link to={"/oculos-beleza"} id={styles.saibaBtn}>
+               <Link to={"/capa-deluxe"} id={styles.saibaBtn}>
                   Saiba mais
                </Link>
-               <Link id={styles.buyBtn} to={"/comprar/beleza-oculos"}>
+               <Link id={styles.buyBtn} to={"/comprar/capa-deluxe"}>
                   Compre agora
                </Link>
             </div>
-            <img src={img1} alt="oculos beleza" />
+            <img src={img1} alt="Capa deluxe" />
          </div>
       </div>
    );

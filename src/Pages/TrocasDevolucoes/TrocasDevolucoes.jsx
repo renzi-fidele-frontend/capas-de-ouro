@@ -36,7 +36,7 @@ const TrocasDevolucoes = () => {
 
                <div>
                   <div id={styles.left}>
-                     <img src={politica} alt="oculosBeleza" />
+                     <img src={politica} alt="capa deluxe" />
                   </div>
                   <div id={styles.right}>
                      <h5>Capa Cardoso Deluxe</h5>
@@ -46,7 +46,7 @@ const TrocasDevolucoes = () => {
                      <br />
                      <p>
                         Nos comprometemos a ou substituir as peças que apresentarem qualquer eventual problema. Não estão dentro das
-                        conformidades da garantia da Beleza problemas consequentes de mau uso, como arranhões por objetos pontudos, manchas
+                        conformidades da garantia da Capas Cardoso Deluxe problemas consequentes de mau uso, como arranhões por objetos pontudos, manchas
                         causadas por químicos, danos causados por umidade, etc.
                      </p>
                   </div>
@@ -84,7 +84,7 @@ const TrocasDevolucoes = () => {
                <p>
                   Para que a sua solicitação de troca ou devolução seja aceita, é imprescindível que seu pedido esteja em perfeitas condições,
                   sem marcas ou indícios de mau uso. Se você optar pela devolução do pedido, seu pagamento será imediatamente reembolsado assim
-                  que seu pedido retornar para a Beleza e for cancelado. Pagamentos por cartão de crédito serão reembolsados na própria fatura e
+                  que seu pedido retornar para a Capas Cardoso Deluxe e for cancelado. Pagamentos por cartão de crédito serão reembolsados na própria fatura e
                   pagamentos por Pix serão reembolsados via Pix ou TED em até um dia útil após o cancelamento do pedido.
                </p>
             </div>
@@ -92,11 +92,11 @@ const TrocasDevolucoes = () => {
             {/*Secao3 */}
             <div className={styles.secao}>
                <h5 className={estiloBeleza.tit2}>Formas de envio</h5>
-               <p>A Beleza oferece envio para todo Brasil. Você deverá optar pelo envio padrão de frete( o valor depende da sua localização).</p>
+               <p>A Capas Cardoso Deluxe oferece envio para todo Brasil. Você deverá optar pelo envio padrão de frete( o valor depende da sua localização).</p>
                <br />
                <p>
                   O prazo de entrega informado na finalização do pedido passa a ser contabilizado assim que o pedido é postado. Todos os pedidos
-                  da Beleza são postados em até um dia útil após a confirmação do pagamento.
+                  da Capas Cardoso Deluxe são postados em até um dia útil após a confirmação do pagamento.
                </p>
                <div>
                   <div id={styles.left}>

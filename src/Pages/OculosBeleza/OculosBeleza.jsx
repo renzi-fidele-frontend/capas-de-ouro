@@ -70,7 +70,7 @@ const OculosBeleza = () => {
                   </p> */}
                </div>
                <div style={{ textAlign: "center", width: "100%" }}>
-                  <Link id={estiloHome.buyBtn} className={styles.cimaBtn} to={"/comprar/beleza-oculos"}>
+                  <Link id={estiloHome.buyBtn} className={styles.cimaBtn} to={"/comprar/capa-deluxe"}>
                      Compre agora
                   </Link>
                </div>
@@ -143,7 +143,7 @@ const OculosBeleza = () => {
          <div id={styles.oferta}>
             <h6 className={styles.tit2}>Compre online.</h6>
             <p className={styles.subtit2}>Sem sair de casa.</p>
-            <Link to={"/comprar/beleza-oculos"} id={estiloHome.buyBtn}>
+            <Link to={"/comprar/capa-deluxe"} id={estiloHome.buyBtn}>
                Compre agora{" "}
             </Link>
          </div>

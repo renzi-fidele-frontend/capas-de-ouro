@@ -19,10 +19,10 @@ function App() {
                <Routes>
                   <Route exact path="/" element={<Home />} />
                   <Route path="/contato" element={<Contato />} />
-                  <Route path="/comprar/beleza-oculos" element={<Comprar />} />
+                  <Route path="/comprar/capa-deluxe" element={<Comprar />} />
                   <Route path="/sobre" element={<Sobre />} />
                   <Route path="/politica-de-vendas" element={<TrocasDevolucoes />} />
-                  <Route path="/oculos-beleza" element={<OculosBeleza />} />
+                  <Route path="/capa-deluxe" element={<OculosBeleza />} />
                </Routes>
             </SmoothScroll>
             <Footer />
