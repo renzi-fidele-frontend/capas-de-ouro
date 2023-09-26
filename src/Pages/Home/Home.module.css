@@ -180,8 +180,12 @@
 
 @media screen and (max-width: 543px) {
    #hero {
-      padding-right: 5%;
+      padding-right: 0px;
+      padding-left: 3%;
+      grid-template-columns: 57% 43%;
    }
+
+   
 
    #body {
       padding-inline: 2%;
@@ -224,10 +228,6 @@
 @media screen and (max-width: 443px) {
    #hero > #right > img {
       width: 95%;
-   }
-
-   #hero {
-      padding-right: 3%;
    }
 
    .tit {

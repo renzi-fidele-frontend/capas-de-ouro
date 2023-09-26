@@ -39,3 +39,24 @@
    flex-direction: column;
    justify-content: center;
 }
+
+@media screen and (max-width: 700px) {
+   #ct {
+      margin-inline: 1em;
+      padding: 1em;
+   }
+
+   .icon {
+      font-size: 40px;
+   }
+}
+
+@media screen and (max-width: 500px) {
+   .right > h5 {
+      font-size: 18px;
+   }
+
+   .icon {
+      font-size: 32px;
+   }
+}
