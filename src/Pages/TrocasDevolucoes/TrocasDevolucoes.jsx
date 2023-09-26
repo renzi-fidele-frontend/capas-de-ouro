@@ -2,10 +2,11 @@ import React, { useEffect, useRef } from "react";
 import styles from "./TrocasDevolucoes.module.css";
 import estiloHome from "../Home/Home.module.css";
 import estiloBeleza from "../OculosBeleza/OculosBeleza.module.css";
+import politica from "../../assets/politica.png";
 
 //Icons
 import { IoDocumentTextOutline } from "react-icons/io5";
-import { BsBoxSeam, BsChat, BsChatDots } from "react-icons/bs";
+import { BsBoxSeam, BsChat } from "react-icons/bs";
 import { Link, useLocation } from "react-router-dom";
 
 const TrocasDevolucoes = () => {
@@ -13,9 +14,8 @@ const TrocasDevolucoes = () => {
    const trocas = useRef();
 
    useEffect(() => {
-      console.log(`O hash e: ${loc.hash}`);
       loc.hash === "#trocas-e-devolucoes" ? trocas.current.scrollIntoView({ behavior: "smooth" }) : undefined;
-   }, [loc.hash]);
+   }, []);
 
    return (
       <div id={styles.ct}>
@@ -30,26 +30,22 @@ const TrocasDevolucoes = () => {
             <div className={styles.secao}>
                <h5 className={estiloBeleza.tit2}>Garantia</h5>
                <p>
-                  Nós temos a nossa maneira de garantir que todos os produtos da Beleza serão confeccionados com excelência, por isso, realmente
-                  acreditamos que eles farão parte da sua vida por muito tempo.
+                  Nós temos a nossa maneira de garantir que todos os produtos da Capas Cardoso Deluxe serão confeccionados com excelência, por
+                  isso, realmente acreditamos que eles farão parte da sua vida por muito tempo.
                </p>
-               <br />
-               <p>
-                  Nós temos a nossa maneira de garantir que todos os produtos da Beleza serão confeccionados com excelência, por isso, realmente
-                  acreditamos que eles farão parte da sua vida por muito tempo.
-               </p>
+
                <div>
                   <div id={styles.left}>
-                     <img src={""} alt="oculosBeleza" />
+                     <img src={politica} alt="oculosBeleza" />
                   </div>
                   <div id={styles.right}>
-                     <h5>Beleza All Black</h5>
+                     <h5>Capa Cardoso Deluxe</h5>
                      <p className={styles.subtit}>
-                        Garantia de <span>2 anos</span>
+                        Garantia de <span>6 meses</span>
                      </p>
                      <br />
                      <p>
-                        Nos comprometemos a reparar ou substituir as peças que apresentarem qualquer eventual problema. Não estão dentro das
+                        Nos comprometemos a ou substituir as peças que apresentarem qualquer eventual problema. Não estão dentro das
                         conformidades da garantia da Beleza problemas consequentes de mau uso, como arranhões por objetos pontudos, manchas
                         causadas por químicos, danos causados por umidade, etc.
                      </p>
@@ -68,7 +64,7 @@ const TrocasDevolucoes = () => {
                   <div id={styles.right}>
                      <h2 className={styles.secTit}>Solicite uma troca ou devolução</h2>
                      <Link to={"/contato"} className={styles.secLink}>
-                        Fale com a equipe de suporte da Beleza ›
+                        Fale com o proprietário da Capas Cardoso Deluxe ›
                      </Link>
                   </div>
                </div>
@@ -96,7 +92,7 @@ const TrocasDevolucoes = () => {
             {/*Secao3 */}
             <div className={styles.secao}>
                <h5 className={estiloBeleza.tit2}>Formas de envio</h5>
-               <p>A Beleza oferece envio para todo Brasil. Você pode optar pelo envio padrão de R$20 ou frete grátis.</p>
+               <p>A Beleza oferece envio para todo Brasil. Você deverá optar pelo envio padrão de frete( o valor depende da sua localização).</p>
                <br />
                <p>
                   O prazo de entrega informado na finalização do pedido passa a ser contabilizado assim que o pedido é postado. Todos os pedidos
@@ -112,7 +108,7 @@ const TrocasDevolucoes = () => {
                      </p>
                      <p>Sempre estaremos aqui para te ajudar.</p>
                      <Link to={"/contato"} className={styles.secLink}>
-                        Fale com a equipe de suporte da Beleza ›
+                     Fale com o proprietário da Capas Cardoso Deluxe ›
                      </Link>
                   </div>
                </div>
