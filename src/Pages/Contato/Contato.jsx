@@ -1,9 +1,13 @@
 import React from "react";
 import styles from "./Contato.module.css";
 import estiloHome from "../Home/Home.module.css";
+
+// Imagens
 import zap from "../../assets/icon_whatsapp.png";
 import insta from "../../assets/icon_instagram.png";
 import mail from "../../assets/icon_email.png";
+import contato from "../../assets/contato.png";
+import contatoMobile from "../../assets/contatoMobile.png";
 
 const Contato = () => {
    return (
@@ -30,15 +34,15 @@ const Contato = () => {
 
          <div id={styles.baixo}>
             <div id={styles.left}>
-               <img src={""} id={styles.demo} alt="" />
-               <img src={""} id={styles.demoMobile} alt="" />
+               <img src={contato} id={styles.demo} alt="" />
+               <img src={contatoMobile} id={styles.demoMobile} alt="" />
             </div>{" "}
             <div id={styles.right}>
                <h3 className={estiloHome.tit}>Precisa de ajuda?</h3>
                <h5 className={estiloHome.subtit}>Nós vamos te ajudar.</h5>
                <p>
-                  Sempre que precisar, você pode entrar em contato com a equipe de suporte da Cardoso Capas Deluxe. Será um prazer te conhecer, tirar as suas
-                  dúvidas e te ajudar com tudo que você precisar.
+                  Sempre que precisar, você pode entrar em contato com a equipe de suporte da Cardoso Capas Deluxe. Será um prazer te conhecer,
+                  tirar as suas dúvidas e te ajudar com tudo que você precisar.
                </p>
                <br />
                <p>
