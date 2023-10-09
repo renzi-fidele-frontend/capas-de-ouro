@@ -71,7 +71,7 @@ const Comprar = () => {
                   </p>
                   <p>
                      <FiCheckCircle />
-                     <span>Encaixe Perfeito</span>
+                     <span>Metalizado</span>
                   </p>
                   <p>
                      <FiCheckCircle />
