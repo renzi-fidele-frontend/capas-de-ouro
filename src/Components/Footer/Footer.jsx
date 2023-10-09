@@ -18,7 +18,7 @@ const Footer = () => {
                <a href="https://www.linkcorreios.com.br">Rastreie seu pedido</a>
             </div>
             <div id={styles.right}>
-               <a href="https://www.instagram.com/blznosolhos/" target="_blank">
+               <a href="https://www.instagram.com/cardosodeluxe/" target="_blank">
                   <BsInstagram />
                </a>
                <a href="" target="_blank">

@@ -47,9 +47,9 @@ const Comprar = () => {
                   </p>
                </div>
 
-               <h5>Frete grátis</h5>
-               <p>- A partir de 2 compras</p>
-               <h5>Garantia de 2 anos</h5>
+               <h5>Disponível pra revenda</h5>
+               <p>- A partir de 20 compras por R$ 60</p>
+               <h5>Garantia de 6 meses</h5>
                <p>- Seguro autorizado</p>
                <h5>Especificações:</h5>
                <ul>
@@ -79,7 +79,7 @@ const Comprar = () => {
                   </p>
                </ul>
                <h5 style={{ color: "#00a000", whiteSpace: "nowrap" }}>
-                  <span id={styles.antes}>De R$ 129,99</span> Por R$ 49,99 <span id={styles.empurar}> em até 2x sem juros</span>
+                  <span id={styles.antes}>De R$ 125,00</span> Por R$ 79,99 <span id={styles.empurar}> sem taxas adicionais</span>
                </h5>
 
                <p id={styles.verde}>
@@ -91,7 +91,7 @@ const Comprar = () => {
                      Compre agora
                   </a>
                   <a id={estiloHome.buyBtn} className={styles.zapBtn} href="#">
-                     <BsWhatsapp/> Compre via Zap
+                     <BsWhatsapp /> Compre via Zap
                   </a>
                </div>
             </div>
